@@ -217,7 +217,7 @@ public class GenerateMaze : MonoBehaviour
     void SetupPlayer()
     {
 
-        var randomx = _mazeWidtdh - 1;
+        var randomx = _mazeHeight - 1;
         _endx = randomx;
         while (_endx == randomx)
         {
